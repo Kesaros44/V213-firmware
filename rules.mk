@@ -26,4 +26,3 @@ SPLIT_KEYBOARD = yes        # Enable split keyboard
 VIA_ENABLE = no
 LTO_ENABLE = yes
 
-DEFAULT_FOLDER = krsplit
