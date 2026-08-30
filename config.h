@@ -1,0 +1,24 @@
+#pragma once
+
+#define SPLIT_HAND_PIN E6
+#define SPLIT_USB_DETECT
+#define SPLIT_LED_STATE_ENABLE
+
+#define ENCODER_RESOLUTION 4
+
+
+#define DEBOUNCE 5
+
+#define LED_CAPS_LOCK_PIN D6
+
+#define LED_PIN_ON_STATE 1
+
+#define BACKLIGHT_PIN B6
+#define BACKLIGHT_LEVELS 7
+#define BACKLIGHT_DEFAULT_LEVEL 3
+
+#define USE_SERIAL
+
+#define SPLIT_USB_TIMEOUT 2000
+
+#define SPLIT_USB_TIMEOUT_POLL 10
