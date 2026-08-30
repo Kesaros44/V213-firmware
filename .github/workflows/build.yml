@@ -23,7 +23,7 @@ jobs:
       - name: Copy keyboard files into QMK tree
         run: |
           mkdir -p qmk_firmware/keyboards/krsplit/v213/keymaps/default
-          cp config.h keyboard.json krsplit.c krsplit.h rules.mk qmk_firmware/keyboards/krsplit/v213/
+          cp config.h keyboard.json v213.c krsplit.h rules.mk qmk_firmware/keyboards/krsplit/v213/
           cp keymaps/default/keymap.c qmk_firmware/keyboards/krsplit/v213/keymaps/default/
 
       - name: Set up Python
@@ -69,7 +69,7 @@ jobs:
       - name: Copy keyboard files into Vial QMK tree
         run: |
           mkdir -p vial-qmk/keyboards/krsplit/v213/keymaps/vial
-          cp config.h keyboard.json krsplit.c krsplit.h rules.mk vial-qmk/keyboards/krsplit/v213/
+          cp config.h keyboard.json v213.c krsplit.h rules.mk vial-qmk/keyboards/krsplit/v213/
           cp keymaps/vial/keymap.c keymaps/vial/rules.mk keymaps/vial/config.h keymaps/vial/vial.json vial-qmk/keyboards/krsplit/v213/keymaps/vial/
 
       - name: Set up Python
