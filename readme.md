@@ -2,6 +2,10 @@
 
 A large split ergonomic keyboard (108-key style layout, `LAYOUT_108`) with an integrated numpad on the left half, an F-row, a full navigation cluster, and a rotary encoder — built around two ATmega32U4 controllers (one per half).
 
+![krsplit V213 assembled](images/v213-assembled.png)
+
+![krsplit V213 halves apart](images/v213-halves.png)
+
 * Keyboard Maintainer: [AJG](https://github.com/Kesaros44)
 * Hardware Supported: krsplit V213 split keyboard (AVR / ATmega32U4)
 * Hardware Availability: personal/custom build
@@ -121,6 +125,10 @@ Pre-built `.hex` files (`krsplit_default.hex`, `krsplit_v213_vial.hex`) are incl
 # krsplit V213 (한글)
 
 좌우 절반에 각각 ATmega32U4 컨트롤러를 하나씩 쓰는 대형 스플릿 인체공학 키보드입니다. 108키 스타일 레이아웃(`LAYOUT_108`)을 기반으로 왼쪽 절반에 넘패드가 통합되어 있고, F열, 전체 네비게이션 클러스터, 로터리 엔코더를 갖추고 있습니다.
+
+![krsplit V213 조립 완료](images/v213-assembled.png)
+
+![krsplit V213 좌우 분리](images/v213-halves.png)
 
 * 키보드 유지보수자: [AJG](https://github.com/Kesaros44)
 * 지원 하드웨어: krsplit V213 스플릿 키보드 (AVR / ATmega32U4)
